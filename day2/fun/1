@@ -1,0 +1,26 @@
+#!/bin/bash
+clear
+echo "_____________________SDL FOOD MART___________________________"
+echo""
+echo""
+read -p "Enter Customer Name =" cname
+read -p "Enter Customer Contact No =" cno
+echo""
+echo""
+echo "_____________________Recipt Details__________________________"
+echo""
+echo""
+
+read -p "number of goods =" ngood
+for((i=1;i <= $ngood;i++))
+{
+read -p "Enter Item =" item
+read -p "Enter Qntity =" qun
+read -p "Enter Price =" price
+
+total=$(($qun * $price))
+
+echo $item "-------" $price "x" $qun "-----" $total
+$i ")" $item "-------" $price "x" $qun "-----" $total >> output.txt
+}
+exit
