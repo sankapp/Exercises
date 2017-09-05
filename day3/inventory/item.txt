@@ -1,2 +1,3 @@
 1). Item Name :-cat -----Category :-animal -----Available shop :-AS -----Price :-100
 2). Item Name :-dog -----Category :-animal -----Available shop :-as -----Price :-200
+3). Item Name :-rat -----Category :-animal -----Available shop :-ds -----Price :-10
